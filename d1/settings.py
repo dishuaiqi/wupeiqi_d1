@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app01.apps.App01Config',
+    'web.apps.WebConfig',
 ]
 
 MIDDLEWARE = [
@@ -127,7 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # 短信配置sms
 
-TENCENT_APPID = ""  # 自己应用ID(名称必须全部大写
+TENCENT_APPID = "1400629890" # 自己应用ID(名称必须全部大写
 TENCENT_APKEY = ""  # 自己应用Key
 TENCENT_SMS_SIGN = ""  # 自己腾讯云创建签名时填写的签名内容（使用公众号的话这个值一般是公众号全称或简称）
 
