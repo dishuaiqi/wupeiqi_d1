@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a8af3cd-b9cb-469c-8681-ffb987af5cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/d1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/layout/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/layout/basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/views/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/views/account.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -47,7 +47,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,6 +64,7 @@
       <recent name="D:\python项目文件\python项目\d1\app01\templates\app01" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python项目文件\python项目\d1\web\static\image" />
       <recent name="D:\python项目文件\python项目\d1\web\static\js" />
       <recent name="D:\python项目文件\python项目\d1\web\static\plugin" />
     </key>
@@ -82,6 +84,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/文件夹中全部抗体数据导入.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="样品录入表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="d1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/样品录入表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +245,9 @@
       <workItem from="1653546838542" duration="6735000" />
       <workItem from="1653802542437" duration="34048000" />
       <workItem from="1655166348686" duration="13899000" />
-      <workItem from="1655619111692" duration="2165000" />
+      <workItem from="1655619111692" duration="7736000" />
+      <workItem from="1655964588892" duration="6169000" />
+      <workItem from="1656998996850" duration="3816000" />
     </task>
     <servers />
   </component>
@@ -232,26 +258,30 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="386" y="302" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655623128303">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="386" y="302" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1655623128303" />
     <state x="802" y="210" key="FileChooserDialogImpl" timestamp="1654302958852">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="802" y="210" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1654302958852" />
-    <state width="1200" height="261" key="GridCell.Tab.0.bottom" timestamp="1655519057611">
+    <state width="1200" height="261" key="GridCell.Tab.0.bottom" timestamp="1657000048835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="261" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1655519057611" />
-    <state width="1200" height="261" key="GridCell.Tab.0.center" timestamp="1655519057611">
+    <state width="1200" height="261" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1657000048835" />
+    <state width="1200" height="261" key="GridCell.Tab.0.center" timestamp="1657000048835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="261" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1655519057611" />
-    <state width="1200" height="261" key="GridCell.Tab.0.left" timestamp="1655519057611">
+    <state width="1200" height="261" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1657000048835" />
+    <state width="1200" height="261" key="GridCell.Tab.0.left" timestamp="1657000048835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="261" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1655519057611" />
-    <state width="1200" height="261" key="GridCell.Tab.0.right" timestamp="1655519057611">
+    <state width="1200" height="261" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1657000048835" />
+    <state width="1200" height="261" key="GridCell.Tab.0.right" timestamp="1657000048835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="261" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1655519057611" />
+    <state width="1200" height="261" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1657000048835" />
     <state x="134" y="141" key="SettingsEditor" timestamp="1653547771540">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -262,6 +292,6 @@
     <state x="296" y="222" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1653804345238" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/d1$.coverage" NAME="蓝耳、伪狂犬、圆环、腹泻病原报告 Coverage Results" MODIFIED="1655519057603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/d1$.coverage" NAME="样品录入表 Coverage Results" MODIFIED="1655628056484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
   </component>
 </project>
